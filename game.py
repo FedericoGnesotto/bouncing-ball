@@ -3,8 +3,8 @@ import logging
 import numpy as np
 import pygame
 
-from utils.game_utils import *
-from resources.game_constants import *
+import game_utils
+import resources
 
 # Import pygame.locals for easier access to key coordinates
 from pygame.locals import (
